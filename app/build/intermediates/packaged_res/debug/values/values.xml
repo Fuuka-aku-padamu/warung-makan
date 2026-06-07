@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_bg">#FFF8F3</color>
+    <color name="orange">#FF6D00</color>
+    <color name="orange_dark">#E65100</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Warung Makan</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orange_dark</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="android:statusBarColor">@color/orange_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+color light_bg
+color orange
+color orange_dark
+color white
+id btnBayar
+id btnMinus
+id btnPlus
+id recyclerView
+id tvHarga
+id tvJumlah
+id tvNama
+id tvTotal
+layout activity_main
+layout item_menu
+string app_name
+style AppTheme
