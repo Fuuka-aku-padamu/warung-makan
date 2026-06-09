@@ -23,9 +23,12 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+
+        <!-- PERBAIKAN DI SINI: Ditambahkan android:theme khusus splash screen -->
         <activity
             android:name="com.warungmakan.MainActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

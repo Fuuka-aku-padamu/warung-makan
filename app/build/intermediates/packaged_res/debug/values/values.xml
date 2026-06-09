@@ -11,4 +11,11 @@
         <item name="colorAccent">@color/orange</item>
         <item name="android:statusBarColor">@color/orange_dark</item>
     </style>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_warung_makan_ngawi</item>
+
+        <item name="postSplashScreenTheme">@style/AppTheme</item>
+    </style>
 </resources>

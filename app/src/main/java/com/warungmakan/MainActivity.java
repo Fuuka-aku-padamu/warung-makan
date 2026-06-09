@@ -12,9 +12,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+import androidx.core.splashscreen.SplashScreen;
+
 
 public class MainActivity extends AppCompatActivity {
-
     private List<MenuItem> menuList;
     private TextView tvTotal;
     private Button btnBayar;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        SplashScreen.installSplashScreen(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 

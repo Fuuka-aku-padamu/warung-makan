@@ -4,6 +4,7 @@ color light_bg
 color orange
 color orange_dark
 color white
+drawable logo_warung_makan_ngawi
 id btnBayar
 id btnMinus
 id btnPlus
@@ -16,3 +17,4 @@ layout activity_main
 layout item_menu
 string app_name
 style AppTheme
+style Theme.App.Starting
